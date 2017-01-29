@@ -35,7 +35,7 @@ class InMobile extends SmsiSecurity{
     $ch = curl_init();
     curl_setopt($ch, CURLOPT_URL, "https://mm.inmobile.dk/Api/V2/Get/SendMessages");
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, true);
     curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($params,'&'));
     $output = curl_exec($ch);
 

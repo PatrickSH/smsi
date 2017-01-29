@@ -27,14 +27,17 @@ class SmsiBuildHtml{
             </select>
 
 						<div id='clickatell' class='providerDiv'>
+						<label>Your clickatell API key this can be obtained in your admin panel.</label>
             	<input type='text' name='gatewayAuthId' class='smsiInput' placeholder='Authorization Id' />
 						</div>
 
 						<div id='inmobile' class='providerDiv'>
+						<label>Your INMobile API key this can be obtained in your admin panel.</label>
             	<input type='text' name='gatewayApiKey' class='smsiInput' placeholder='Api Key' />
 						</div>
 
 						<div id='txty' class='providerDiv'>
+						<label>Your Txty username and password.</label>
             	<input type='text' name='gatewayUsername' class='smsiInput' placeholder='Username' />
 							<input type='text' name='gatewayPassword' class='smsiInput' placeholder='Password' />
 						</div>
@@ -159,7 +162,7 @@ class SmsiBuildHtml{
 						<div class='smsiLine'></div>
 						<p>SMSI is a plugin that allows you as a shop owner to offer your customers the ability to follow their order through SMS</p>
 						<p>With SMSI you can send a SMS to your customers on every single order status which grants your customers total overview of their order.</p>
-						<p>As of September 2016 we offer SMS support from 3 different providers, we do have plans of adding more providers to list later on.</p>
+						<p>As of January 2017 we offer SMS support from 3 different providers, we do have plans of adding more providers to list later on.</p>
 					</div>
 
 					<div class='smsiSubHelp'>
@@ -196,7 +199,7 @@ class SmsiBuildHtml{
 					<div class='smsiSubHelp'>
 						<p class='helpSubHeadline'>Licensing</p>
 						<div class='smsiLine'></div>
-						<p>SMSI is a paid plugin! you pay for one license which means that these files may under no circumstances be shared!</p>
+						<p>SMSI is a free plugin! it's distributed under the GPLv2 license <a href='https://www.gnu.org/licenses/old-licenses/gpl-2.0.html'>https://www.gnu.org/licenses/old-licenses/gpl-2.0.html</a></p>
 					</div>
 
 					<p class='helpHeadline'>Contact</p>

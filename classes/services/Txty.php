@@ -40,7 +40,7 @@ class Txty extends SmsiSecurity{
     $ch = curl_init();
     curl_setopt($ch, CURLOPT_URL, "https://login.txty.dk/api/4/user/newapikey/login.json");
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, true);
     curl_setopt($ch, CURLOPT_POST,           1);
     curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($params,'&'));
     $output = json_decode( curl_exec($ch) );
